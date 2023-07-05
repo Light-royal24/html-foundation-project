@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Basics</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logoName">
+        <h1>Html tags</h1>
+      </div>
+
+      <div class="navbar">
+        <i class="las la-bars"></i>
+        <ul>
+          <li><a href="#heading-elements">Headings</a></li>
+          <li><a href="#self-closing-tags">Self closing tags</a></li>
+          <li><a href="#semantic-elements">Semantic</a></li>
+          <li><a href="#quotation">Quotation</a></li>
+          <li><a href="#textformatting">Formatting</a></li>
+          <li><a href="#form">Form</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="main-container">
+      <p title="made for start up developers to understand Basics of html">
+        html cite.
+      </p>
+
+      <h1>HTML elements</h1>
+
+      <!-- Heading elements -->
+      <div>
+        <h2 id="heading-elements">Heading elements</h2>
+        <p>
+          HTML headings are titles or subtitles that you want to display on a
+          webpage.
+        </p>
+        <ul>
+          <li>h1</li>
+          <li>h2</li>
+          <li>h3</li>
+          <li>h4</li>
+          <li>h5</li>
+          <li>h6</li>
+        </ul>
+      </div>
+
+      <!-- Self closing tags -->
+      <div>
+        <h2 id="self-closing-tags">Self closing elements</h2>
+        <p>An element that dont have an end tag</p>
+        <ol>
+          <li>area</li>
+          <li>base</li>
+          <li>br</li>
+          <li>col</li>
+          <li>embed</li>
+          <li>hr</li>
+          <li>img</li>
+          <li>input</li>
+          <li>link</li>
+          <li>meta</li>
+          <li>param</li>
+          <li>source</li>
+          <li>track</li>
+          <li>wbr</li>
+        </ol>
+      </div>
+
+      <!-- semantic elements -->
+      <div>
+        <h2 id="semantic-elements">Semantic elements</h2>
+        <p>
+          A Semantic element clearly describes its meaning to both the browser
+          and the developer.
+        </p>
+        <ol>
+          <li>article</li>
+          <li>aside</li>
+          <li>details</li>
+          <li>figcaption</li>
+          <li>figure</li>
+          <li>footer</li>
+          <li>header</li>
+          <li>main</li>
+          <li>mark</li>
+          <li>nav</li>
+          <li>section</li>
+          <li>summary</li>
+          <li>time</li>
+        </ol>
+      </div>
+
+      <!-- quotation elements -->
+      <div>
+        <!-- Quotation elements -->
+        <h2 id="quotation">Quotation elements</h2>
+        <p>
+          The quotation tags in HTML is used to represent sentence or phrases
+          which is not part of the original text and is usually referred from
+          the external source. The quotation in HTML can be represented by
+        </p>
+        <ol>
+          <li>blockquote,</li>
+          <li>q,</li>
+          <li>abbr,</li>
+          <li>address,</li>
+          <li>cite</li>
+          <li>bdo</li>
+        </ol>
+      </div>
+
+      <!-- text formatting -->
+      <div>
+        <h2 id="textformatting">Text formatting</h2>
+        <p>
+          HTML Formatting is a process of formatting text for a better look and
+          feel. HTML provides us the ability to format text without using CSS.
+          There are many formatting tags in HTML examples.
+        </p>
+        <ol>
+          <li>Bold text</li>
+          <li>Important text</li>
+          <li>Italic text</li>
+          <li>Emphasized text</li>
+          <li>Underline text</li>
+          <li>Marked text</li>
+          <li>Smaller text</li>
+          <li>Deleted text</li>
+          <li>Inserted text</li>
+          <li>Subscript text</li>
+          <li>Superscript text</li>
+          <li>monospaced font</li>
+          <li>big font</li>
+        </ol>
+      </div>
+
+      <!-- form elements -->
+      <div>
+        <form id="form">
+          <h2>Form</h2>
+
+          <label for="john">First name</label>
+          <input type="text" placeholder="John" id="john" />
+
+          <br />
+          <br />
+
+          <label for="text">Last name</label>
+          <input type="text" placeholder="Doe" id="text" />
+
+          <br />
+          <br />
+
+          <label for="email">Email</label>
+          <input type="email" placeholder="doe1234@gmail.com" id="email" />
+
+          <p>Position</p>
+          <input
+            type="radio"
+            name="position"
+            value="Fullstack"
+            id="fullstack"
+          />
+          <label for="fullstack">Full stack</label>
+
+          <br />
+
+          <input type="radio" name="position" value="Back_end" id="back_end" />
+          <label for="back_end">Back end</label>
+
+          <br />
+
+          <input
+            type="radio"
+            name="position"
+            value="Front_end"
+            id="front_end"
+          />
+          <label for="front_end">Front end</label>
+
+          <br />
+
+          <input type="radio" name="position" value="Dev_ops" id="dev_ops" />
+          <label for="dev_ops">Dev Ops</label>
+
+          <br />
+
+          <p>Gender</p>
+          <input type="radio" name="gender" value="male" id="male" />
+          <label for="male">Male</label>
+
+          <br />
+
+          <input type="radio" name="gender" value="female" id="female" />
+          <label for="female">Female</label>
+
+          <br />
+
+          <br />
+          <br />
+
+          <input type="checkbox" name="student" value="student" id="student" />
+          <label for="student">Student</label>
+
+          <br />
+
+          <input type="checkbox" name="tutor" value="tutor" id="tutor" />
+          <label for="tutor">Tutor</label>
+
+          <br />
+          <br />
+          <br />
+
+          <select>
+            <option>Choose age bracket</option>
+            <option value="child">Child</option>
+            <option value="adult">Adult</option>
+          </select>
+
+          <br />
+          <br />
+
+          <label for="bio">Bio</label>
+          <br />
+          <textarea id="bio" name="bio" rows="5"></textarea>
+        </form>
+      </div>
+
+      <a>made with love by david</a>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
